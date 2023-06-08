@@ -18,5 +18,5 @@ Cria um relatorio de probabilidades dos dados de cura do sistema
 
 Ex de uso:
 ```bash
-python estatistica_cura.py -t cura -r 3 * (2d4 + d5)
+python estatistica_cura.py -t cura -r "3 * (2d4 + d5)"
 ```
