@@ -1,4 +1,6 @@
-# Calculadoras para simplificar os calculos de um sistema de RPG
+# Calculadoras do sistema de RPG Iteralis
+
+Conjunto de scripts para simplificar os calculos do sistema de RPG Iteralis
 
 ## calculo_vida.py
 
