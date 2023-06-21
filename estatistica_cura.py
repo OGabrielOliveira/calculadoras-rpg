@@ -10,7 +10,7 @@ from prettytable import PrettyTable
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', '--name', default='Cura')
 parser.add_argument('-r', '--roll', dest='roll', default=None)
-parser.add_argument('-f', '--force_roll', dest='force_roll', default=False)
+parser.add_argument('-f', '--force_roll', dest='force_roll', action=argparse.BooleanOptionalAction)
 parser.add_argument('-R', '--report', action=argparse.BooleanOptionalAction)
 parser.add_argument('-F', '--save-file', action=argparse.BooleanOptionalAction)
 
