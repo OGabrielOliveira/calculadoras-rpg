@@ -81,6 +81,10 @@ def report_all():
 
     report_file_content = ''
     for file in files:
+        
+        if '.txt' not in file:
+            continue
+        
         nome = file.replace('.txt', '')
         retorno, quartil, roll_string = montar_tabelas(nome)
 
